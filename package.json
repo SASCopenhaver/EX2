@@ -4,5 +4,9 @@
   "description": "EX2",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
   }
 }

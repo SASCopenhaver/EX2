@@ -5,6 +5,9 @@
 	npm init
 	git init		// Create local repo
 	ls				// to see the file list
+	
+	npm install jquery
+	npm install normalize.css
 
 Notes:
 	git status	//Checking the status of changed files
@@ -15,4 +18,4 @@ Notes:
 
 	touch "test.html"	// creates file test.html 
 	
-	node test.js	//runs the file test.js
+	node test.js		//runs the file test.js
