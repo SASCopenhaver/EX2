@@ -1,0 +1,18 @@
+1.	Install Git and NodeJS
+2.	In GitBash:
+	cd .... 		//to the sub-directory of the project
+	node --version	// to check NodeJS version
+	npm init
+	git init		// Create local repo
+	ls				// to see the file list
+
+Notes:
+	git status	//Checking the status of changed files
+	git add file_name.html	// Adds file into the staging area
+	git commit -m "First commit"	//commits file to local repo
+	
+	git checkout -- .	// if file has to be restored to the last commit:
+
+	touch "test.html"	// creates file test.html 
+	
+	node test.js	//runs the file test.js

@@ -1,0 +1,8 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "EX2",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
