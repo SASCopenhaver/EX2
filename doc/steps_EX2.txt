@@ -1,0 +1,128 @@
+1.	Install Git and NodeJS
+
+2.	In GitBash:
+	cd .... 		//to the sub-directory of the project
+	node --version	// to check NodeJS version
+	npm init
+	git init		// Create local repo
+	ls				// to see the file list
+	
+	npm install gulp --save-dev	//Installs Gulp locally for the project
+	gulp -v			// Gulp version
+	touch "gulpfile.js"	// Creates file gulpfile.js
+	npm install gulp-watch --save-dev	//Installs Gulp-watch plug-in
+	npm install gulp-postcss --save-dev	// Installs PostCSS package
+	npm install autoprefixer --save-dev	//Instolls Autoprefixer 
+	npm install postcss-simple-vars --save-dev	//Needed to handle variables in CSS file
+	npm install postcss-nested --save-dev	// Needed for nested CSS
+	npm install postcss-import --save-dev	//Needed to use @import into main css file located at asset/styles/styles.css 
+	npm install browser-sync --save-dev	//Automatically reload browser during development
+	npm install postcss-mixins --save-dev 
+	
+	npm install jquery
+	npm install normalize.css
+	
+3.	If a new css file has tobe created:
+	- create file "assets/styles/css_modules/_wrapper.css"
+	- create class ".wrapper" in that file
+	- create record in "assets/styles/styles.css":
+	- apply class "wrapper" in "header".
+
+--------------------------------------------------------------------------------	
+## Section 5, Lacture 14
+BEM - Block Element Modifier
+BEM is an abstract way of thinking about design.
+Simantic is important(!!!). See the file _cdivHeader.css 
+
+	BLOCK is an independent reusable element of the design.
+	ELEMENT belongs to block; it cannot be used outside of the block it belongs to. 
+	MODIFIER (used in Blocks and Elements) indicates  change to the default state of an object. 
+(Ex:	class: btn; 
+		class: btn btn_blue; 
+		class: btn_blue_large)
+
+CSS selectors target elements with classes.
+Blocks could nested inside another block.
+Single-responsibility blocks.
+--------------------------------------------------------------------------------
+default size of the font in the broeswer is 16px
+
+px to rem conversion if :root font-size is 16px
+10px	0.625rem
+13px	0.8125rem
+14px	0.875rem
+15px	0.9375rem
+16px	1rem
+
+--------------------------------------------------------------------------------
+Git/GitHUB
+NodeJS
+NPM
+Gulp
+Mixins
+webpack
+oracle
+coldfusion
+BEM 
+
+reusable column layout
+
+Notes:
+	git status	//Checking the status of changed files
+	git add file_name.html	// Adds file into the staging area
+	git commit -m "First commit"	//commits file to local repo
+	
+	git checkout -- .	// if file has to be restored to the last commit:
+
+	touch "test.html"	// creates file test.html 
+	
+	node test.js		//runs the file test.js
+	
+
+--------------------------------------------------------------------------------
+
+Package "browser-sync" - automatically refresh browswe when changes are done.
+
+--------------------------------------------------------------------------------
+Application Characteristic:
+1. Responcive Images- image resolutionand file size.
+
+--------------------------------------------------------------------------------
+#####  Git BRANCHES
+# List all the branches in repository:
+# cd to working sub-directory
+	git branch
+
+# Before creating any branch commit all the work
+	git status
+
+# Add all uncomitted files to staging area:
+	git add -A	
+
+# To make sure that files were staged 
+	git status  
+
+# If file has to be unstaged (ex: ui/home.cfm):
+	git reset ui/home.cfm
+# To make sure that file was unstaged:
+	git status
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

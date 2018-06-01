@@ -1,0 +1,75 @@
+.row{ /*background-color:yellow;*/
+
+	@mixin clearfix;
+	
+	/* UDEMY: Section 8, Lecture 24 12:00 */
+	&--gutters > div{  /* applies to all "children of the class 'row' " */ 
+		padding-right: 65px;
+	}
+	
+	&--gutters {   
+		margin-right: -65px;
+	}
+	
+	/* Applies if screen size is medium */
+	@mixin atMedium{
+			&__1{
+				float: left;
+				width:8.33%%;
+			}
+			&__2{
+				float: left;
+				width: 16.66%%;
+			}
+			&__3{
+				float: left;
+				width: 24.99%%;
+			}
+			&__4{
+				float: left;
+				width: 33.32%;
+			}
+			/* ------------------ */
+					&__4--larger{
+						width: 34%;
+					}
+			/* ------------------ */
+			&__5{
+				float: left;
+				width: 41.65%;
+			}
+			&__6{
+				float: left;
+				width: 49.98%;
+			}
+			&__7{
+				float: left;
+				width: 58.31%;
+			}
+			&__8{
+				float: left;
+				width: 66.68%;
+			}
+			/* ------------------ */
+					&__8--smaller{
+						width:66%;
+					}
+			/* ------------------ */
+			&__9{
+				float: left;
+				width: 75.01%;
+			}
+			&__10{
+				float: left;
+				width: 83.34%;
+			}
+			&__11{
+				float: left;
+				width: 91.67%;
+			}
+			&__12{
+				float: left;
+				width: 100%;
+			}
+	}
+}

@@ -1,0 +1,10 @@
+.wrapper{ /*background-color:green;*/
+	
+	overflow:hidden;
+	padding-left:18px; 
+	padding-right:18px; 
+	max-width:1236px;/* changed from 1200 */ 
+	margin-left: auto; /* Line 1 */
+	margin-right: auto; /* Line2 */
+	/* Lines 1 and 2 positions HTML objects in the middle of the page */
+}

@@ -1,0 +1,21 @@
+body{ 
+	font-family:"Roboto", sans-serif; 
+	color: #333;
+}
+img{
+	max-width:100%;
+	/*width:100%;*/
+	height:auto;
+}
+
+/* UDEMY: Section 8, Lecture 24 12:00 */
+* {  
+		box-sizing: border-box; /* calculates a proper width, since 65px  
+		acceeds spesified width of for the row */
+}
+
+a{
+	color: @mainOrange;
+}
+
+
