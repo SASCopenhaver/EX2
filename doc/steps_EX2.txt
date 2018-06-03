@@ -106,13 +106,60 @@ Application Characteristic:
 	git reset ui/home.cfm
 # To make sure that file was unstaged:
 	git status
+
+# Commiting:
+	git commit -m "Compleated header and 'why this site got started'."
+# Working directory should be clean:
+	git status
+
+###########
+Section 9 Lecture 27
+# To create a new branch
+	git branch count-to-ten
+# To see the branch:
+	git branch
+	### RESULT:	count-to-ten
+				*master
+	# * indicates the branch we are currently working with	
+# To checkout (switch) to count-to-ten branch
+	git checkout count-to-ten
 	
+# work with file... then commit changes:
+	git status
+	git add -A
+	
+	#Commit and stage at the same time:
+		git commit -am "Message is here" 
+	
+	git status
+	git commit -m "Stop at counted till 4"
+	
+# to switch to master:
+	git checkout master
+	
+# back to count-to-ten:
+	git checkout count-to-ten
+	.. finish work
+	git add -A
+	git commit -m "Finish counting till 10"
+	
+# Time to merge to count-to-ten to master:
+	git checkout master
+	git merge count-to-ten
+#Pushing:
+	git push origin muster
 
+#### In GitHUB under "commits" see activity
+	GitHUM may merge branches as well
+	
+# To push just branch:
+	git push origin count-to-ten
 
+# Delete branch:
+	git branch -d count-to-ten
 
-
-
-
+# Create branch and switch to it:
+	git checkout -b tech
 
 
 
