@@ -18,4 +18,4 @@ a{
 	color: @mainOrange;
 }
 
-
+strong { font-weight: bold; }

@@ -363,6 +363,8 @@ a{
 	color: @mainOrange;
 }
 
+strong { font-weight: bold; }
+
 .cdivHeaderApp{
 	border-bottom:10px solid #2F5572;
 	position:relative;
@@ -497,8 +499,13 @@ a{
 	max-width:1236px;/* changed from 1200 */ 
 	margin-left: auto; /* Line 1 */
 	margin-right: auto; /* Line2 */
-	/* Lines 1 and 2 positions HTML objects in the middle of the page */
 }
+
+/* Lines 1 and 2 positions HTML objects in the middle of the page */
+
+.wrapper--statement{
+	 	margin-bottom: 30px;
+	 }
 
 .page-section{
 	padding:4.5rem 0;
@@ -553,14 +560,22 @@ a{
 		display:table;
 	}
 
+.row--gutters {   
+		margin-right: -65px;
+	}
+
+.row row--gutters-100{   
+		margin-right: -100px;
+	}
+
 /* UDEMY: Section 8, Lecture 24 12:00 */
 
 .row--gutters > div{  /* applies to all "children of the class 'row' " */ 
 		padding-right: 65px;
 	}
 
-.row--gutters {   
-		margin-right: -65px;
+.row--gutters-100 > div{   
+		padding-right: 100px;
 	}
 
 /* Applies if screen size is medium */
@@ -632,12 +647,108 @@ a{
 .generic-content-container p{
 		line-height:1.65; 
 		font-size:1.125rem; 
-		margin:1.8rem 0;
+		font-weight:300; 
+		margin:0 0 1.8rem 0;
 	}
 
 .generic-content-container p a { 
 		font-weight: 600; 
 		color: #D59541; 
+	}
+
+/* Section 10, Lecture 28 */
+
+.section-title{ 
+	font-size:2.55rem; 
+	font-weight:300; 
+	text-align: center;  
+	/*margin-top:0;*/
+	
+	
+	
+	@__icon{ 
+		/*margin-right:.5rem; */
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto;  
+		margin-bottom: .6rem;
+		
+		/*@media (min-width: 530px){*/
+		
+		@media (min-width: 800px){
+			margin-right: .5rem; 
+			margin-right: 0; 
+			margin-left: 0;  
+			margin-bottom:0;
+			display: inline-block;
+	}
+	}
+	
+}
+
+/*@media (min-width: 530px){*/
+
+@media (min-width: 800px){
+
+.section-title{
+		font-size:3.75rem
+	
+}
+	}
+
+.tech-item{  
+	position:relative;
+	/*padding-left:90px;*/ 
+	padding-bottom:2.5rem;
+}
+
+/*@media (min-width: 530px){*/
+
+@media (min-width: 800px){
+
+.tech-item{
+		padding-left:90px
+}
+	}
+
+/* Section 10 Lecture 29 */
+
+.tech-item__icon{ 
+		display: block; 
+		margin:0 auto;
+		/*position: absolute;
+		left: 0;*/		
+	}
+
+/*@media (min-width: 530px){*/
+
+@media (min-width: 800px){
+
+.tech-item__icon{
+			position: absolute;
+			left: 0		
+	}
+	}
+
+.tech-item__title{ 
+		font-size: 1.6rem;/*2.0;*/
+		font-weight:300; 
+		margin-bottom:.8rem; 
+		margin-top:.7em; 
+		text-align: center;
+		
+	}
+
+/*@media (min-width: 530px){*/
+
+@media (min-width: 800px){
+
+.tech-item__title{ 
+			margin-top:1em;
+			font-size: 2.0; 
+			text-align: left
+		
+	}
 	}
 
 

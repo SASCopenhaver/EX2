@@ -7,4 +7,9 @@
 	margin-left: auto; /* Line 1 */
 	margin-right: auto; /* Line2 */
 	/* Lines 1 and 2 positions HTML objects in the middle of the page */
+	 
+	 
+	 &--statement{
+	 	margin-bottom: 30px;
+	 }
 }

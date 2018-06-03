@@ -2,14 +2,25 @@
 
 	@mixin clearfix;
 	
+	
+	
+	&--gutters {   
+		margin-right: -65px;
+	}
+	
+	row--gutters-100{   
+		margin-right: -100px;
+	}
+	
 	/* UDEMY: Section 8, Lecture 24 12:00 */
 	&--gutters > div{  /* applies to all "children of the class 'row' " */ 
 		padding-right: 65px;
 	}
 	
-	&--gutters {   
-		margin-right: -65px;
+	&--gutters-100 > div{   
+		padding-right: 100px;
 	}
+	
 	
 	/* Applies if screen size is medium */
 	@mixin atMedium{
