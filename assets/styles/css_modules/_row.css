@@ -2,7 +2,9 @@
 
 	@mixin clearfix;
 	
-	
+	&--gutters-center{ 
+		text-align: center;
+	}
 	
 	&--gutters {   
 		margin-right: -65px;
@@ -83,4 +85,20 @@
 				width: 100%;
 			}
 	}
+	
+	/* Equal Height rules */
+	&--equal-height-at-medium{
+		@mixin atMedium{
+			display: flex;
+		}
+		
+		& > div{
+			float:none;
+			display: flex;
+		}	
+	
+	
+	}
+
+	
 }

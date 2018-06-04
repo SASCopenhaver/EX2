@@ -10,7 +10,9 @@
 		font-size:3.75rem;
 	}
 	
-	
+	&--blue{
+		color: $mainBlue;
+	}
 	
 	@__icon{ 
 		/*margin-right:.5rem; */
@@ -19,7 +21,9 @@
 		margin-right: auto;  
 		margin-bottom: .6rem;
 		
-		@mixin atSmall{
+		@mixin atSmall{ 
+			position: relative; 
+			top: 8px;  
 			margin-right: .5rem; 
 			margin-right: 0; 
 			margin-left: 0;  

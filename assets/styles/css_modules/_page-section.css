@@ -6,4 +6,14 @@
 		color: $mainWhite;
 		
 	}
+	
+	
+	&--testimonials{ background-color: $lightBlue
+		/*
+		background: url(file:/C:/ColdFusionBuilder2016/ColdFusion/cfusion/wwwroot/EX2/assets/img/bg_testimonials_h.png) top center no-repeat;
+		background-size: cover;  
+		*/
+		
+		
+	}
 }

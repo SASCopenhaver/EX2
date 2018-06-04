@@ -162,8 +162,21 @@ Section 9 Lecture 27
 	git checkout -b tech
 
 
-
-
+#### Merge option:	READ about it later!!!!!!
+# Existing Branches:
+#	master
+#	tech
+# --no-ff  means no fast forward
+		git checkout master
+		git merge our-feature --no-ff 
+		"esc" key on keyboard
+		type :wq
+		git push origin master
+		
+		
+		
+		 
+	
 
 
 
