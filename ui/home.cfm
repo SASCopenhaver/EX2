@@ -26,7 +26,8 @@
 			<section id="secApp">
 				<cfinclude template="section.cfm" >
 			</section>
-			<footer id="ftrApp">
+			
+			<footer id="ftrApp" class="site-footer">
 				<cfinclude template="footer.cfm" >
 			</footer>
 	</form>

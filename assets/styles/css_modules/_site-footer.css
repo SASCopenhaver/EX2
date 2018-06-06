@@ -1,0 +1,12 @@
+.site-footer{ 
+	background-color: $mainBlue; 
+	color:$mainWhite; 
+	padding: 1rem 0; 
+	text-align: center; 
+	font-weight: 200;
+
+	&__text{ 
+		display:block;
+		
+	}
+}
