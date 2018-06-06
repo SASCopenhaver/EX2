@@ -18,6 +18,7 @@
 	npm install postcss-import --save-dev	//Needed to use @import into main css file located at asset/styles/styles.css 
 	npm install browser-sync --save-dev	//Automatically reload browser during development
 	npm install postcss-mixins --save-dev 
+	npm install gulp-svg-sprite --save-dev
 	
 	npm install jquery
 	npm install normalize.css
@@ -63,7 +64,11 @@ Mixins
 webpack
 oracle
 coldfusion
-BEM 
+BEM
+Flexbox
+Responsive design
+Gulp Sprite
+
 
 reusable column layout
 
@@ -173,6 +178,13 @@ Section 9 Lecture 27
 		type :wq
 		git push origin master
 		
+##############################
+Gulp-SPRITE: Section 12 Lecture 23
+#
+	npm install gulp-svg-sprite --save-dev
+	
+
+
 		
 		
 		 
