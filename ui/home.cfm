@@ -10,19 +10,20 @@
   		<meta name="description" content="Website for learning.">
 		
 		<link rel="stylesheet" href="#app.build_styles#styles.css"></link>
-	
+		
 </cfoutput>
-
 </head>
 <body id="bdyApp">
 <div class="divApp">
 	<form id="frmPage" name="frmPage" method="post" >
-			<nav id="navApp" >
-				<cfinclude template="navigation.cfm" >
-			</nav>
-			<header id="hdrApp">
-				<cfinclude template="header.cfm" >
+			<header id="hdrApp" > 
+					<nav id="navApp" class="site-header">
+						<cfinclude template="navigation.cfm" >
+					</nav>
+					
+					<cfinclude template="header.cfm" >
 			</header>
+			
 			<section id="secApp">
 				<cfinclude template="section.cfm" >
 			</section>
@@ -32,5 +33,7 @@
 			</footer>
 	</form>
 </div>
+<!---<script src="../assets/scripts/app.js" ></script>--->
+<script src="../builds/scripts/app.js" ></script>
 </body>
 </html>

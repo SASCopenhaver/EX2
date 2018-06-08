@@ -7,6 +7,7 @@ var  gulp = require("gulp")
 	,cssImport = require("postcss-import")
 	//,browserSync = require("browser-sync").create()
 	,mixins = require("postcss-mixins")
+	,hexrgba = require("postcss-hexrgba")
 		
 	,source = "./assets/styles"
 	,dest = "builds/styles/" 
@@ -22,6 +23,7 @@ gulp.task("styles",function(){
 								mixins,
 								cssvars,
 								nested,
+								hexrgba,
 								autoprefixer 
 							  ]))
 				.on("error", function(errorInfo){

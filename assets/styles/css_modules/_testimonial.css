@@ -34,6 +34,7 @@
 	}
 	&__text{
 		margin:1rem; 
-		padding-bottom: 1rem;
+		padding-bottom: 1rem; 
+		/*font-size:50px;*/
 	}
 }

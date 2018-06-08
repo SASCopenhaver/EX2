@@ -19,6 +19,12 @@
 	npm install browser-sync --save-dev	//Automatically reload browser during development
 	npm install postcss-mixins --save-dev 
 	npm install gulp-svg-sprite --save-dev
+	npm install postcss-hexrgba --save-dev
+	npm install webpack -g
+	npm install webpack --save-dev
+	npm install jquery --save
+	npm install babel-core babel-loader babel-preset-es2015 --save-dev
+	
 	
 	npm install jquery
 	npm install normalize.css
@@ -68,6 +74,7 @@ BEM
 Flexbox
 Responsive design
 Gulp Sprite
+Babel
 
 
 reusable column layout
@@ -183,6 +190,9 @@ Gulp-SPRITE: Section 12 Lecture 23
 #
 	npm install gulp-svg-sprite --save-dev
 	
+################################
+
+webpack - 
 
 
 		

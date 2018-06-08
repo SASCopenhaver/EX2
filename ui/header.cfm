@@ -7,9 +7,7 @@
 <div id="divHeaderSalutation">Hello, #session.vUserFullName#</div>
 </cfoutput>
 --->
-<cfoutput>
-	
-<div class="cdivHeaderApp">
+
 	<!---
 	Section 7 Lecture 20 - 11:37!!!! 
 	 --->
@@ -26,8 +24,11 @@
 		<img srcset="#app.img#header1--480x163.jpg 640w, #app.img#header1--480x163.jpg 1380w" alt="Peru. Sunrise in Machu Picchu" >
 	</picture>
 	--->
+<cfoutput>
+<div class="cdivHeaderApp">
+	
 	<img src="#app.img#header2--1920x654.jpg" 
-		 alt="Peru. Sunrise in Machu Picchu" 
+		 alt="Peru. Sunrise in Machu Picchu." 
 		 class="cdivHeaderApp__image" >
 	
 	<div class="cdivHeaderApp__text-content">
@@ -36,11 +37,13 @@
 			<h2 class="cdivHeaderApp__subtitle">Hello and Welcome<h2>
 			
 			<p class="cdivHeaderApp__description">
-				This site is as a training ground.
+				This site is a training ground.
 			</p>
 		</div>
 	</div>
 	
+</div>
+</cfoutput>	
 <!---	
 	<!---<img src="#application.path.img#header--large.jpg" >--->
 	
@@ -69,5 +72,3 @@
 		</p>
 	</div>
 --->
-</div>
-</cfoutput>

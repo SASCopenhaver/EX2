@@ -3,6 +3,7 @@ var  gulp = require("gulp")
 	,browserSync = require("browser-sync").create()
 		
 	,source = "./assets/styles"
+	,sourcejs = "./assets/scripts"
 	,dest = "builds/styles/" 
 ;
 
@@ -20,6 +21,11 @@ gulp.task("watch", function(){
 	watch("./**/*.cfm", function(){
 		browserSync.reload();
 	});
+	
+	watch(sourcejs+"/**/*.js", function(){
+		//gulp.start("scripts");
+		gulp.start("scriptsRefresh");
+	});
 });
 //------------------------------------------------------------------------------
 gulp.task("cssInject", ["styles"], function(){
@@ -28,3 +34,10 @@ gulp.task("cssInject", ["styles"], function(){
 			   .pipe(browserSync.stream());
 });
 //------------------------------------------------------------------------------
+gulp.task("scriptsRefresh", ["scripts"], function(){
+	browserSync.reload();
+});
+
+
+
+
