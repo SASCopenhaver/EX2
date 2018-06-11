@@ -53,6 +53,15 @@
 			font-size:1rem;
 			padding:10px 0; 
 			background-color: transparent;
+			
+			/* Section 17 Lecture 49 */
+			&.is-current-link{
+				color: $niceOrange;
+			}
+			&.is-not-current-link{
+				color: $mainWhite;
+			}
+			
 		}
 	}
 }

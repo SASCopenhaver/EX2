@@ -16,6 +16,10 @@
 <body id="bdyApp">
 <div class="divApp">
 	<form id="frmPage" name="frmPage" method="post" >
+			<!---<nav id="navApp" class="site-header">
+				<cfinclude template="navigation.cfm" >
+			</nav>--->
+		
 			<header id="hdrApp" > 
 					<nav id="navApp" class="site-header">
 						<cfinclude template="navigation.cfm" >

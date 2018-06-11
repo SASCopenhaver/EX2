@@ -1,6 +1,7 @@
 <cfoutput>
 <!--- --------------------------------------------------------------------- --->	
 <div id="divDesignPurpose" class="page-section">
+		<div id="divWhyThis" data-matching-link="##whythis-link">	
 			<div class="wrapper wrapper--statement">
 					<div class="row row--gutters">
 						<div class="row__4">
@@ -13,7 +14,7 @@
 							<div class="generic-content-container">	
 								<h2 class="headline headline--no-top-margin">Here&rsquo;s why this website got started&hellip;</h2>
 								<p> 
-									It does not represent any particular application or system.<br> 
+									This site does not represent any particular application or system.<br> 
 									The site is designed for traing purposes and used as a <strong>reference</strong>.
 								</p>
 								<p>
@@ -26,9 +27,12 @@
 						</div>
 					</div>
 			</div>
-		
+		</div><!--- divWhyThis --->
+
 <!--- --------------------------------------------------------------------- --->			
-			<div id="divTechnologies" class="page-section page-section--blue">
+			<div id="divTechnologies" 
+				 class="page-section page-section--blue"
+				 data-matching-link="##technologies-link">
 				<div class="wrapper">
 					<h2 class="section-title">
 						<img class="section-title__icon" src="#app.icons_svg#star.svg">
@@ -217,7 +221,9 @@
 			</div><!--- row --->
 <!--- --------------------------------------------------------------------- --->
 
-  <div id="testimonials" class="page-section page-section--testimonials">
+  <div id="testimonials" 
+  	   class="page-section page-section--testimonials"
+  	   data-matching-link="##testimonials-link">
     <div class="wrapper">
 	    <h2 class="section-title section-title--blue" >
 	    	<img class="section-title__icon" src="#app.icons#comment.svg">

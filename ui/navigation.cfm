@@ -3,9 +3,6 @@
 	
 	<div class="site-header__logo">
 		<img src="../assets/img/ex_logo_1.png" >
-		<!---<div class="icon icon--ex">
-			E
-		</div>--->
 	</div>
 	
 	<div class="site-header__menu-icon">
@@ -20,10 +17,14 @@
 		</div>
 		
 		<div class="primary-nav primary-nav--pull-right">
-			<ul>
-			  <li><a href="#resume">Resume</a></li>
-			  <li><a href="#tree_view">Treeview</a></li>
+			<ul> 								<!--- our-beginning-link --->
+			  <li><a href="#divWhyThis"      id="whythis-link">Why This</a></li>
+			  <li><a href="#divTechnologies" id="technologies-link">Technology</a></li>
+			  <li><a href="#testimonials" 	 id="testimonials-link">Board Of Directors</a></li>
+			  <li><a href="#resume" 		 id="resume-link" onClick="alert('Sorry, under construction')" >Resume</a></li>
+			  <li><a href="#treeview" 		 id="treeview-link" onClick="alert('Sorry, under construction')">Treeview</a></li>
 			</ul>
 		</div>
+		
 	</div>
 </div>
