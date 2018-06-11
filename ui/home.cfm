@@ -35,6 +35,11 @@
 			<footer id="ftrApp" class="site-footer">
 				<cfinclude template="footer.cfm" >
 			</footer>
+			
+			<div class="modal">
+				<cfinclude template="_modal.cfm" >
+			</div>
+			
 	</form>
 </div>
 <!---<script src="../assets/scripts/app.js" ></script>--->

@@ -47,8 +47,8 @@ class cjsStickyHeader{
 				handler: function(direction){
 					if (direction === "down"){
 						var matchingHeaderLink = currentPageSection.getAttribute("data-matching-link");
-							//that.headerLinks.removeClass("is-current-link");
-							$(matchingHeaderLink).addClass("is-not-current-link");
+							that.headerLinks.removeClass("is-current-link");
+							//$(matchingHeaderLink).addClass("is-not-current-link");
 							$(matchingHeaderLink).addClass("is-current-link");
 					} 
 				},

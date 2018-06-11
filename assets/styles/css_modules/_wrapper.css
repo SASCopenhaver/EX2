@@ -8,6 +8,9 @@
 	margin-right: auto; /* Line2 */
 	/* Lines 1 and 2 positions HTML objects in the middle of the page */
 	 
+	&--narrow{ 
+		max-width: 470px;
+	}
 	 
 	 &--statement{
 	 	/*margin-bottom: 30px;*/

@@ -13,7 +13,7 @@
 	
 	<div class="site-header__menu-content">
 		<div class="site-header__btn-container">
-			<a href="#" class="btn btn--blue">Home</a>
+			<a href="#" class="btn btn--blue open-modal">Home</a>
 		</div>
 		
 		<div class="primary-nav primary-nav--pull-right">

@@ -197,7 +197,8 @@ webpack -
 
 
 		
-		
+Lazy Loading - Load NOT ALL images on the page, 
+				but those that scroll down to. 	
 		 
 	
 
